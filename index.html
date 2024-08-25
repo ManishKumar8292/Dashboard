@@ -1,0 +1,485 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Entomo</title>
+  <link rel="icon" type="image/x-icon" href="./img/favicon-32x32.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="index.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!--Top Navigation started Here -->
+  <navbar class="z-index position-sticky top-0">
+    <nav class="navbar bg-light border-bottom border-body d-flex">
+      <div class="container-fluid">
+        <a class="navbar-brand text-dark h3">Logo</a>
+        <ul class="list-unstyled my-auto d-flex justify-content-between">
+          <li class="top-menu mx-1 rounded-circle">
+            <a href="#" class="text-dark">
+              <i class="bi bi-translate h4"></i>
+            </a>
+          </li>
+          <li class="top-menu mx-1 rounded-circle position-relative">
+            <a href="#" class="text-dark">
+              <i class="bi bi-bell h4"></i>
+              <span class="position-absolute badge rounded-pill bg-primary">
+              </span>
+            </a>
+          </li>
+          <li class="top-menu mx-1 rounded-circle">
+            <a href="#" class="text-dark text-decoration-none">
+              <p class="h5 pt-1 pb-0">CL</p>
+            </a>
+
+          </li>
+          <li class="mx-1 my-auto dropdown">
+            <a role="button" class="dropdown-toggle text-decoration-none h5 text-dark" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              User
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </navbar>
+  <!-- Top Navigation Ended Here -->
+
+
+  <div class="container-fluid ps-0">
+    <div class="row">
+      <!-- sidemenu starts Here -->
+      <section class="flex-wrap col-lg-1 col-xl-1 col-xxl-1">
+        <div
+          class="sidebar-section d-flex flex-column justify-content-between z-index position-fixed bg-light py-1 px-2">
+          <div class="px-2">
+            <a href="#" class="sidemenu d-flex text-decoration-none text-dark text-center px-2">
+              <i class="bi bi-house h4 lh-base pt-1"></i>
+            </a>
+            <ul class="nav nav-links flex-column mt-1">
+              <li class="nav-item">
+                <a href="#" class="sidemenu d-flex text-decoration-none text-dark text-center">
+                  <i class="bi bi-bar-chart-line px-2 pt-1 h4 lh-base"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="sidemenu d-flex text-decoration-none text-dark text-center">
+                  <i class="bi bi-people px-2 pt-1 h4 lh-base"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="sidemenu d-flex text-decoration-none text-dark text-center">
+                  <i class="bi bi-gender-trans px-2 pt-1 h4 lh-base"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="sidemenu d-flex text-decoration-none text-dark text-center">
+                  <i class="bi bi-boxes px-2 pt-1 h4 lh-base"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="sidemenu d-flex text-decoration-none text-dark text-center">
+                  <i class="bi bi-person-gear px-2 pt-1 h4 lh-base"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="py-1 px-2 mt-1">
+            <a href="#" class="sidemenu d-flex text-decoration-none text-dark text-center">
+              <i class="bi bi-diagram-2 px-2 pt-1 h4 lh-base"></i>
+            </a>
+            <ul class="nav nav-links flex-column mt-1">
+              <li class="nav-item">
+                <a href="#" class="sidemenu d-flex text-decoration-none text-dark text-center">
+                  <i class="bi bi-share px-2 h4 lh-base"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- sidemenu Ended Here -->
+
+      <!-- main body started Here -->
+      <main class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 col-xxl-8">
+        <div class="mt-4 px-2">
+          <h2 class="display-6">Good Afternoon, user</h2>
+          <p class="lead text-muted">Every Step counts. Keep up the journey!</p>
+        </div>
+        <!-- Card Slider Started Here -->
+        <section class="slider-card">
+          <div id="carouselControls" class="carousel" data-bs-ride="carousel">
+            <div class="container-fluid px-0">
+              <div class="d-flex justify-content-end me-2">
+                <div class="btn-section">
+                  <div class="d-flex justify-content-around">
+                    <button class="carousel-control-prev shadow rounded-circle px-2 me-3" type="button"
+                      data-bs-target="#carouselControls" data-bs-slide="prev">
+                      <img class="mt-1" src="./img/left.png" alt="arrow" width="18">
+                    </button>
+                    <button class="carousel-control-next shadow rounded-circle px-2" type="button"
+                      data-bs-target="#carouselControls" data-bs-slide="next">
+                      <img class="mt-1" src="./img/next.png" alt="arrow" width="18">
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="row px-0">
+                <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 pe-0">
+                  <div class="carousel-inner my-3">
+                    <div class="carousel-item active">
+                      <div class="work-wise-bg card-height card me-3 p-3 shadow rounded">
+                        <h5 class="h6 text-dark">Workwise.AI Unleashed</h5>
+                        <div class="d-flex">
+                          <div class="decription">
+                            <p>Your intelligent ally for everything, form career leaps tp personal
+                              well-being!
+                            </p>
+                          </div>
+                          <img src="./img/AI.png" alt="AI Image" class="img-fluid" width="75">
+                        </div>
+                        <button class="btn btn-light mt-2 pe-auto">
+                          Explore Now
+                        </button>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="role-card card-height card me-3 p-3 shadow rounded">
+                        <h5 class="h6">Role Health</h5>
+                        <div class="decription">
+                          <h5 class="h5">b2c product Owner</h5>
+                          <h5 class="h2 fw-bold">50%</h5>
+                        </div>
+                        <div class="d-flex justify-content-end">
+                          <div class="card-link position-absolute">
+                            <a class="text-decoration-none h6" href="#">
+                              Self assess
+                              <span>
+                                <i class="bi bi-pencil"></i>
+                              </span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="personal-card card-height card me-3 p-3 shadow rounded">
+                        <h5 class="h6">Personel Health</h5>
+                        <div class="decription">
+                          <h5 class="h5">How are you feeling today? </h5>
+                        </div>
+                        <div class="d-flex justify-content-end">
+                          <div class="card-link position-absolute">
+                            <a class="text-decoration-none h6" href="#">
+                              take a 2 min joy test
+                              <span>
+                                <i class="bi bi-clock"></i>
+                              </span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="work-wise-bg card-height card me-3 p-3 shadow rounded">
+                        <h5 class="h6 text-dark">Workwise.AI Unleashed</h5>
+                        <div class="d-flex">
+                          <div class="decription">
+                            <p>Your intelligent ally for everything, form career leaps tp personal
+                              well-being!
+                            </p>
+                          </div>
+                          <img src="./img/AI.png" alt="AI Image" class="img-fluid" width="75">
+                        </div>
+                        <button class="btn btn-light mt-2 pe-auto">
+                          Explore Now
+                        </button>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="role-card card-height card me-3 p-3 shadow rounded">
+                        <h5 class="h6">Role Health</h5>
+                        <div class="decription">
+                          <h5 class="h5">b2c product Owner</h5>
+                          <h5 class="h2 fw-bold">50%</h5>
+                        </div>
+                        <div class="d-flex justify-content-end">
+                          <div class="card-link position-absolute">
+                            <a class="text-decoration-none h6" href="#">
+                              Self assess
+                              <span>
+                                <i class="bi bi-pencil"></i>
+                              </span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="personal-card card-height card me-3 p-3 shadow rounded">
+                        <h5 class="h6">Personel Health</h5>
+                        <div class="decription">
+                          <h5 class="h5">How are you feeling today? </h5>
+                        </div>
+                        <div class="d-flex justify-content-end">
+                          <div class="card-link position-absolute">
+                            <a class="text-decoration-none h6" href="#">
+                              take a 2 min joy test
+                              <span>
+                                <i class="bi bi-clock"></i>
+                              </span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Card Slider Ened Here -->
+
+        <section class="cards px-2 my-3">
+          <ul class="d-flex list-unstyled">
+            <li class="me-3">
+              <a href="#" class="text-decoration-none text-muted h5">Focused</a>
+            </li>
+            <li class="me-2 dropdow">
+              <a href="#" class="text-dark text-decoration-underline dropdown-toggle h5" id="dropdownMenuButtons"
+                data-bs-toggle="dropdown" aria-expanded="false">Feeds</a>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButtons">
+                <li><a class="dropdown-item" href="#">Post</a></li>
+                <li><a class="dropdown-item" href="#">Articals</a></li>
+              </ul>
+            </li>
+          </ul>
+          <div class="d-flex justify-content-end">
+            <a href="#" class="filter-link text-dark me-2 px-3 py-1 rounded shadow-sm">
+              <i class="bi bi-sort-down lh-lg"></i>
+            </a>
+            <a href="#" class="filter-link text-dark me-2 px-3 py-1 rounded shadow-sm">
+              <i class="bi bi-filter lh-lg"></i>
+            </a>
+          </div>
+          <div class="card p-3 my-3 shadow-sm">
+            <div class="d-flex justify-content-between">
+              <div class="pin px-3 py-1 rounded-pill d-flex">
+                <a href="#" class="h6 text-dark text-center p-2 text-decoration-none m-auto">
+                  <i class="bi bi-pin-fill me-1"></i>
+                  <span>Pinned</span>
+                </a>
+              </div>
+              <div>
+                <a href="#" class="text-dark">
+                  <i class="bi bi-three-dots-vertical"></i>
+                </a>
+              </div>
+            </div>
+            <div class="card-body p-1 my-2">
+              <div class="d-flex">
+                <h2 class="profile d-flex justify-content-center align-items-center rounded-circle h5 me-2">
+                  CL
+                </h2>
+                <div class="mt-1">
+                  <p class="card-head-text h5 mb-0">Announcement by ct_role_skill_based_It_ntuc</p>
+                  <p class="text-muted">15 Feb 2024, 3:56PM</p>
+                </div>
+              </div>
+              <p class="h5">AAAAAAAY</p>
+              <p class="h6">GHJ</p>
+              <div class="d-flex my-1">
+                <a href="#" class="text-decoration-none text-dark d-flex h6 me-2">
+                  <i class="bi bi-heart me-2"></i>
+                  <span class="me-2">Likes</span>
+                </a>
+                <a href="#" class="text-decoration-none text-dark d-flex h6 me-2">
+                  <i class="bi bi-chat me-2"></i>
+                  <span class="me-2">Comments</span>
+                </a>
+                <a href="#" class="text-decoration-none text-dark d-flex h6 me-2">
+                  <i class="bi bi-box-arrow-up-right me-2"></i>
+                  <span>Share</span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="card p-3 my-3 shadow-sm">
+            <div class="d-flex justify-content-between">
+              <div class="pin px-3 py-1 rounded-pill d-flex">
+                <a href="#" class="h6 text-dark text-center p-2 text-decoration-none m-auto">
+                  <i class="bi bi-pin-fill me-1"></i>
+                  <span>Pinned</span>
+                </a>
+              </div>
+              <div>
+                <a href="#" class="text-dark">
+                  <i class="bi bi-three-dots-vertical"></i>
+                </a>
+              </div>
+            </div>
+            <div class="card-body p-1 my-2">
+              <div class="d-flex">
+                <h2 class="profile d-flex justify-content-center align-items-center rounded-circle h5 me-2">
+                  CL
+                </h2>
+                <div class="mt-1">
+                  <p class="card-head-text h5 mb-0">Announcement by ct_role_skill_based_It_ntuc</p>
+                  <p class="text-muted">15 Feb 2024, 3:56PM</p>
+                </div>
+              </div>
+              <p class="h5">AAAAAAAY</p>
+              <p class="h6">GHJ</p>
+              <div class="d-flex my-1">
+                <a href="#" class="text-decoration-none text-dark d-flex h6 me-2">
+                  <i class="bi bi-heart me-2"></i>
+                  <span class="me-2">Likes</span>
+                </a>
+                <a href="#" class="text-decoration-none text-dark d-flex h6 me-2">
+                  <i class="bi bi-chat me-2"></i>
+                  <span class="me-2">Comments</span>
+                </a>
+                <a href="#" class="text-decoration-none text-dark d-flex h6 me-2">
+                  <i class="bi bi-box-arrow-up-right me-2"></i>
+                  <span>Share</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <!-- main body Ended Here -->
+
+      <!-- Aside section started here -->
+      <aside class="col-xs-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 col-xxl-3 bg-light">
+        <div class="d-flex justify-content-between p-3">
+          <h3 class="h4">Things to do</h3>
+          <a class="btn rounded filter-link">
+            <i class="bi bi-filter"></i>
+          </a>
+        </div>
+        <div class="aside-description">
+          <div class="px-3 py-3">
+            <p class="decription text-muted mb-0">15 Feb 2024, 4:31 PM</p>
+            <p class="decription">Ct_role_skill_based_It_ntuc update your checkin for the kr1 key
+              result for
+              the period 2024-01-01 t0 2024-12-31.</p>
+            <div class="d-flex justify-content-end">
+              <button type="button" class="btn btn-outline-primary decription">Check-in key result progress</button>
+            </div>
+            <hr />
+          </div>
+          <div class="px-3 py-2">
+            <p class="decription text-muted mb-0">13 Feb 2024, 4:31 PM</p>
+            <p class="decription">09 Aug has created the performance program hi22 for the period 2019-02-01 to
+              2024-02-29. start creating your Goals!</p>
+            <div class="d-flex justify-content-end">
+              <button type="button" class="btn btn-outline-primary decription">Create Goal Sheet</button>
+            </div>
+            <hr />
+          </div>
+          <div class="px-3 py-2">
+            <p class="decription text-muted">12 Feb 2024, 6:01 PM</p>
+            <p class="decription">Your Goal sheet published for the program P Test-1 for the period 2024-01-01
+              t0
+              2023-12-31.</p>
+            <div class="d-flex justify-content-end">
+              <button type="button" class="btn btn-outline-primary decription">Push Goal</button>
+            </div>
+            <hr />
+          </div>
+          <div class="px-3 py-2">
+            <p class="decription text-muted mb-0">12 Feb 2024, 6:01 PM</p>
+            <p class="decription">Update your performance for P Test1 for December
+            </p>
+            <div class="d-flex justify-content-end">
+              <button type="button" class="btn btn-outline-primary decription">Update performance</button>
+            </div>
+            <hr />
+          </div>
+          <div class="px-3 py-2">
+            <p class="decription text-muted mb-0">12 Feb 2024, 6:01 PM</p>
+            <p class="decription">Update your performance for P Test1 for December
+            </p>
+            <div class="d-flex justify-content-end">
+              <button type="button" class="btn btn-outline-primary decription">Update performance</button>
+            </div>
+            <hr />
+          </div>
+          <div class="px-3 py-2 padding-bottom-aside">
+            <p class="decription text-muted mb-0">12 Feb 2024, 6:01 PM</p>
+            <p class="decription">Update your performance for P Test1 for December
+            </p>
+            <div class="d-flex justify-content-end">
+              <button type="button" class="btn btn-outline-primary decription">Update performance</button>
+            </div>
+            <hr />
+          </div>
+        </div>
+      </aside>
+      <!-- Aside section Ended here -->
+    </div>
+  </div>
+
+
+  <!--Sidebar for resposive started Here -->
+  <nav class="responsive-navigation navbar fixed-bottom bg-light">
+    <div class="container-fluid justify-content-center">
+      <a href="#" class="sidemenu d-flex text-decoration-none text-dark text-center">
+        <i class="bi bi-house px-2 pt-1 h4 lh-base"></i>
+      </a>
+      <ul class="nav nav-links flex-row mt-1">
+        <li class="nav-item">
+          <a href="#" class="sidemenu d-flex text-decoration-none text-dark text-center">
+            <i class="bi bi-bar-chart-line px-2 pt-1 h4 lh-base"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="sidemenu d-flex text-decoration-none align-items-center text-dark text-center">
+            <i class="bi bi-people px-2 pt-1 h4 lh-base"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="sidemenu d-flex text-decoration-none text-dark text-center">
+            <i class="bi bi-gender-trans px-2 pt-1 h4 lh-base"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="sidemenu d-flex text-decoration-none text-dark text-center">
+            <i class="bi bi-boxes px-2 pt-1 h4 lh-base"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="sidemenu d-flex text-decoration-none text-dark text-center">
+            <i class="bi bi-person-gear px-2 pt-1 h4 lh-base"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="sidemenu d-flex text-decoration-none text-dark text-center">
+            <i class="bi bi-diagram-2 px-2 pt-1 h4 lh-base"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="sidemenu d-flex text-decoration-none text-dark text-center">
+            <i class="bi bi-share px-2 h4 lh-base"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Navbar bottom Ended Here -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="carousel.js"></script>
+</body>
+
+</html>
